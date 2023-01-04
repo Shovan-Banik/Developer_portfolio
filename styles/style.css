@@ -1,0 +1,119 @@
+/* navigation section design */
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav_tittle {
+    font-weight: 800;
+    font-size: 45px;
+    margin: 50px 200px;
+}
+
+header nav .one_leter {
+    color: coral;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 50px 200px;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 20px 15px;
+}
+
+.btn_hire {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    border: 0;
+    padding: 18px 35px;
+
+}
+
+.first {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+
+}
+
+.banner {
+    margin: 0 200px;
+    align-items: center;
+    display: flex;
+}
+
+.banner_title {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.banner_sub_title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.banner_description {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0;
+    color: #757575;
+}
+
+/* main section design */
+.about_main {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about_me {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 155px;
+    margin-top: 130px;
+}
+
+.section_title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.about_pera {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.container_for_about_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_title {
+    color: #757575;
+    font-size: 20px;
+}
+
+.info_description {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
