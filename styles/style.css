@@ -192,3 +192,32 @@ margin-bottom: 20px;
     margin-bottom: 30px;
     /* border-bottom: 1px solid rgb(211, 209, 209); */
 }
+/* contact form and social design */
+.form_container{
+    display: flex;
+    gap: 100px; 
+    margin-top: 130px;
+    padding: 100px 200px;
+    background: #FFF8F3;
+    
+}
+.social .form_handle{
+    text-align: left;
+}
+.form_handle input,textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+}
+.form_container h3{
+    margin-bottom: 24px;
+}
+.last_pera{
+    margin-bottom: 15px;
+}
+.social a img{
+    padding-right: 20px;
+}
+.social a{
+    text-decoration: none;
+}
